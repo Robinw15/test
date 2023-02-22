@@ -21,4 +21,12 @@ pipelines:
             - npm run build:production
           artifacts:
             - dist/** # Save build for next steps
-      
+      - step: 
+          name : Transfer
+          script:
+            - pipe: Robinhome/Untitled project/CICD_test
+            variables:
+          KEY_FILE: $KEY_FILE
+          PROJECT: 'cloudsource1'
+          BUCKET: 'brobucket'
+          SOURCE: '.'
