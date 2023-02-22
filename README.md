@@ -19,7 +19,7 @@ You’ll start by editing this README file to learn how to edit a file in Bitbuc
 
 ---
 
-## Create a filee
+## Create a file
 
 Next, you’ll add a new file to this repository.
 
