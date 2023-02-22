@@ -24,7 +24,7 @@ pipelines:
       - step: 
           name : Transfer
           script:
-            - pipe: Robinhome/Untitled project/CICD_test
+            - pipe: atlassian/google-cloud-storage-deploy:1.2.0
             variables:
           KEY_FILE: $KEY_FILE
           PROJECT: 'cloudsource1'
