@@ -21,10 +21,4 @@ pipelines:
             - npm run build:production
           artifacts:
             - dist/** # Save build for next steps
-      - step:
-            - echo "$(ls -la)"
-           - npm install
-           - npm install -g @angular/cli
-          
-            - echo "$(ls -la dist/)"
-           - scp -r dist/ putty@34.155.127.241:/projects/robin
+      
