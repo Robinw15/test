@@ -25,8 +25,8 @@ pipelines:
           name : Transfer
           script:
             - pipe: atlassian/google-cloud-storage-deploy:1.2.0
-            variables:
-          KEY_FILE: $KEY_FILE
-          PROJECT: 'cloudsource1'
-          BUCKET: 'brobucket'
-          SOURCE: '.'
+              variables:
+                KEY_FILE: '$KEY_FILE'
+                PROJECT: 'cloudsource1'
+                BUCKET: '<brobucket>'
+                SOURCE: '.'
