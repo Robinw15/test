@@ -28,5 +28,5 @@ pipelines:
               variables:
                 KEY_FILE: '$KEY_FILE'
                 PROJECT: 'cloudsource1'
-                BUCKET: '<brobucket>'
+                BUCKET: 'brobucket'
                 SOURCE: '.'
